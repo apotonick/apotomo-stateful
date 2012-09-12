@@ -1,15 +1,15 @@
-h1. apotomo-stateful
+# apotomo-stateful
 
 <em>Statefulness for your Apotomo widgets.</em>
 
 
-h2. Introduction
+# Introduction
 
 The basic idea of this gem is to make specified instance variables of widgets persist over requests. These variables would have to be defined stateful, first.
 
   class CommentsWidget < Apotomo::Widget
     stateful_attr :comment_id
-
+    
     def show(id)
       @comment_id = id
       render
