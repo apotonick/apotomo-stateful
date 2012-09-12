@@ -1,9 +1,9 @@
-= Representable
+h1. apotomo-stateful
 
 <em>Statefulness for your Apotomo widgets.</em>
 
 
-== Introduction
+h2. Introduction
 
 The basic idea of this gem is to make specified instance variables of widgets persist over requests. These variables would have to be defined stateful, first.
 
